@@ -1,0 +1,19 @@
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+	text-transform: inherit;
+}
+
+.reveal p {
+	font-size: 70%;
+}
+
+.reveal pre {
+	font-size: 14px;
+}
+
+.reveal section img {
+	max-height: 45vh;
+}
+
+.reveal .text-muted {
+	color: #ddd;
+}

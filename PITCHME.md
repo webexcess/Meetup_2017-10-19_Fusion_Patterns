@@ -1,7 +1,7 @@
 @title[Introduction]
 ## Meetup
 # Fusion Pattern
-<span class="text-muted">19.10.2017</span>
+<span class="text-muted">Zürich - 19.10.2017</span>
 
 ---?include=topics/folder-structure.md
 

@@ -14,7 +14,6 @@ prototype(WebExcess.Theme:Helper.BreakTag) < prototype(Neos.Fusion:Value) {
 +++
 
 ### How to use it
-@[6]
 ```elm
 prototype(WebExcess.Theme:Address) < prototype(Neos.Fusion:Tag) {
 	tagName = 'address'
@@ -35,6 +34,8 @@ prototype(WebExcess.Theme:Address) < prototype(Neos.Fusion:Tag) {
 	}
 }
 ```
+@[6]
+@[11]
 
 +++
 

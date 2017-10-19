@@ -14,7 +14,6 @@ prototype(WebExcess.Theme:InlineEditable) < prototype(Neos.Fusion:Tag) {
 +++
 
 ### How to use it
-@[2-4]
 ```elm
 prototype(WebExcess.Theme:Content) < prototype(Neos.Fusion:Tag) {
 	content = WebExcess.Theme:InlineEditable {
@@ -22,3 +21,4 @@ prototype(WebExcess.Theme:Content) < prototype(Neos.Fusion:Tag) {
 	}
 }
 ```
+@[2-4]

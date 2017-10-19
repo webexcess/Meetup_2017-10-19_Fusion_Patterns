@@ -11,7 +11,7 @@ prototype(WebExcess.Theme:Helper.WrapTag) < prototype(Neos.Fusion:Tag) {
 @[4-6]
 ```elm
 prototype(WebExcess.Theme:Column) < prototype(Neos.Fusion:Tag) {
-	attributes.class = 'wrapper-class'
+	attributes.class = 'content-element'
 	content = Neos.Fusion:Array {
 		@process.wrapTag = WebExcess.Theme:Helper.WrapTag {
 			attributes.class = 'row'
@@ -34,7 +34,7 @@ prototype(WebExcess.Theme:Column) < prototype(Neos.Fusion:Tag) {
 
 ### Output
 ```html
-<div class="wrapper-class">
+<div class="content-element">
 	<div class="row">
 		<div class="col-sm-6">Left content</div>
 		<div class="col-sm-6">Right content</div>

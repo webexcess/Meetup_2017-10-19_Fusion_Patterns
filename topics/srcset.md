@@ -151,6 +151,7 @@ public function getAsset($assetidentifier)
 
 +++
 
+### Result
 ```json
 {
 	"srcset": "

@@ -3,7 +3,7 @@
 
 +++
 
-### Prototypes
+@title[Prototypes: Root.fusion]
 <span class="text-muted">Root.fusion</span>
 ```elm
 root {
@@ -20,7 +20,8 @@ include: Prototypes/**/*.fusion
 
 +++
 
-#### Prototypes Documents
+@title[Prototypes: Documents]
+<span class="text-muted">Documents</span>
 ```elm
 prototype(WebExcess.Theme:Default.Document) < prototype(Page) {
 	body = Neos.Fusion:Array {
@@ -37,7 +38,8 @@ prototype(WebExcess.Theme:Page.Document) < prototype(WebExcess.Theme:Default.Doc
 
 +++
 
-#### Prototypes NodeTypes
+@title[Prototypes: NodeTypes]
+<span class="text-muted">NodeTypes</span>
 ```elm
 prototype(WebExcess.Theme:Button) < prototype(Neos.Fusion:Tag) {
 	tagName = 'button'
@@ -46,7 +48,7 @@ prototype(WebExcess.Theme:Button) < prototype(Neos.Fusion:Tag) {
 
 +++
 
-#### Prototypes Prototypes
+@title[Prototypes: Header]
 <span class="text-muted">Header</span>
 ```elm
 prototype(WebExcess.Theme:Header) < prototype(Neos.Fusion:Tag) {
@@ -72,7 +74,7 @@ prototype(WebExcess.Theme:Header.Navigation) < prototype(Neos.Fusion:Tag) {
 
 +++
 
-#### Prototypes Prototypes
+@title[Prototypes: Main]
 <span class="text-muted">Main</span>
 ```elm
 prototype(WebExcess.Theme:Main) < prototype(Neos.Fusion:Tag) {
@@ -89,7 +91,7 @@ prototype(WebExcess.Theme:Main.Content) < prototype(ContentCollection) {
 
 +++
 
-#### Prototypes Prototypes
+@title[Prototypes: Footer]
 <span class="text-muted">Footer</span>
 ```elm
 prototype(WebExcess.Theme:Footer) < prototype(Neos.Fusion:Tag) {
